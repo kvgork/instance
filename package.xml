@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>instance</name>
+  <version>0.0.1</version>
+  <description>The instance package</description>
+
+  <maintainer email="gorkom.projects@gmail.com">koen</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+
+  <depend>robot_motion</depend>
+  <depend>robot_driver</depend>
+  <depend>robot_teleoperation</depend>
+
+  <export>
+    <github repository="robot_motion" url="https://github.com/kvgork/robot_motion" version="master" />
+    <github repository="robot_driver" url="https://github.com/kvgork/robot_driver" version="master" />
+    <github repository="robot_teleoperation" url="https://github.com/kvgork/robot_teleoperation" version="master" />
+  </export>
+</package>
